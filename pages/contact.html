@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- cdn link -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="/style.css">
+    <title>food website</title>
+</head>
+<body>
+    <!-- navbar section  -->
+
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container  shdow">
+    
+            <!-- Logo / Brand -->
+            
+            <a class="navbar-brand navlogu" href="index.html"> <img src="https://static.vecteezy.com/system/resources/thumbnails/007/578/790/small/luxury-awesome-phoenix-logo-design-template-vector.jpg" alt="" class="img-wid"></a>
+            <!-- Toggle Button (Mobile) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+            <i class="fa-solid fa-bars" id="menuIcon"></i>
+        </button>
+
+            
+            <!-- Menu -->
+            <div class="collapse navbar-collapse  bdn" id="mainNavbar">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nabli ">
+                    <li class="nav-item">
+                        <a class="nav-link " href="./home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./faq.html" onclick="fun()">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+    
+        </div>
+
+
+    </nav>   <!--end-->
+
+
+    <!-- contact page start  -->
+
+ <section>
+        <div class="container">
+            <div class="contact-heading">
+                <p style="color:green">contuct us</p>
+                <h1>If you any comments please apply now </h1>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+
+                    <div class="image-contact">
+                        <img src="../pic/naim.jpeg" alt="">
+                    </div>
+
+
+                </div>
+            <div class="col-lg-6">
+                <form>
+                    <div class="row g-4">
+                        <!-- First Name -->
+                        <div class="col-md-6 inp">
+                            <input type="text" class="form-control" placeholder="First Name">
+                        </div>
+            
+                        <!-- Last Name -->
+                        <div class="col-md-6 inp">
+                            <input type="text" class="form-control" placeholder="Last Name">
+                        </div>
+            
+                        <!-- Subject -->
+                        <div class="col-md-6 inp">
+                            <input type="text" class="form-control" placeholder="Subject">
+                        </div>
+            
+                        <!-- Year -->
+                        <div class="col-md-6 inp">
+                            <label for="colors">couse your course</label> 
+                                <select name="colors" id="colors">
+                                <option value="">web design</option>
+                                <option value="green" selected>web devlopment</option> <!-- Green is pre-selected -->
+                                <option >digital marketing</option>
+                                <option value="blue" disabled>networking</option> <!-- Blue is disabled -->
+                                </select>
+                        </div>
+            
+                 
+                        <div class="col-12">
+                            <textarea class="form-control" rows="4" placeholder="Your Message" ></textarea>
+                        </div>
+            
+                  
+                        <div class="col-12">
+                            <button onclick="Clicked()" type="submit" class="btn btn-primary px-4 " style="margin-bottom:150px;">
+                                Submit
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+     </div>
+     <!-- linke item added -->
+     <div>
+        <h2> *linked</h2>
+     </div>
+         <div class="container" style="display: flex; gap: 30px; margin: 30px; font-size: 23px;">
+            <div class="row">
+                <i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <div class="row">
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div class="row">
+               <i class="fa-brands fa-github"></i>
+            </div>
+        </div>
+
+        <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28948.356905706773!2d89.3517824!3d24.9135104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fc5580e6d1053d%3A0x79830ecb3e34f2f4!2sMomo%20Inn%20Park%20%26%20Resort!5e0!3m2!1sen!2sbd!4v1768413354095!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+     </div>
+     </section>
+
+     <footer class="foter-text">
+        <h2>&copy;company all right creator</h2>
+     </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>

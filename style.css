@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* navbar section style */
+
+.img-wid {
+    width:50px;
+    border-radius: 30px;
+}
+#mainNavbar {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    font-size: 21px;
+ 
+}
+#mainNavbar ul li a {
+    color:#ffff
+}  /* end */
+
+
+
+/* contact page style */
+
+.image-contact {
+    width: 70%;
+}
+.image-contact img {
+    width: 100%;
+    border-radius: 20px;
+}  
+
+
+.contact-heading {
+    width:35%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.inp input {
+    font-size: 25px;
+}
+
+.inp label {
+    font-size: 25px;
+    color: green;
+}
+
+/* map width rename */
+.map iframe{
+    width: 100%;
+    height: 800px;
+    margin-bottom: 50px;
+}
+
+/* footer section */
+
+.foter-text {
+    text-align: center;
+      color:;
+
+}
+
