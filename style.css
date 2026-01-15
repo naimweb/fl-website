@@ -67,3 +67,68 @@
      color:blue;
 }
 
+
+/* about page style */
+/* staff list  */
+
+.staff-container {
+    height: 100vh;
+    background-color: gray;
+}
+
+.staff-head {
+    
+    width: 16%;
+    
+    margin: auto;
+}
+.staff-head h1 {
+ 
+    color: green;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+}
+.staff-head p {
+    color:orangered;
+    margin-bottom: 100px;
+}
+.list-items {
+
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.frame {
+    border: 1px solid black;
+    position: relative;
+   
+   overflow: hidden;
+    
+}
+.frame img {
+    width: 100%;
+    height: 400px;
+    border-radius: 20px;
+}
+.heading {
+  position: absolute;
+    bottom: -90px;   
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    text-align: center;
+    transition: all 2s ease;
+     
+  
+}
+.frame:hover .heading {
+    bottom: 0px;
+    background-color: green;
+        transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    
+}
+
